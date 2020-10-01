@@ -2,9 +2,9 @@ import React from "react";
 import "./App.css";
 import { Switch, Route } from 'react-router-dom';
 
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
-import Home from "./components/Home";
+import Navbar from "./components/Navbar/Navbar";
+import Footer from "./components/Footer/Footer";
+import Home from "./components/Home/Home";
 
 function App() {
   return (
@@ -24,4 +24,4 @@ function App() {
 
 export default App;
 
-const Routes = [{exact:true,path:"",component:Home}]
+// const Routes = [{exact:true,path:"",component:Home}]
