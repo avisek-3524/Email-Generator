@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <div className="container">
+        <div className="container mx-auto">
             Email Generator &copy; 2020
         </div>
     );

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Navbar = () => {
     return (
-      <nav className="container">
+      <nav className="container mx-auto">
         <h1>Email Generator</h1>
         <ul>
           <li>Home</li>
