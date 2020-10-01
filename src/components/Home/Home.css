@@ -1,0 +1,62 @@
+.hero {
+  padding: 2rem 0;
+  width: 70%;
+}
+
+.hero h1 {
+  font-family: "Sansita Swashed", cursive;
+  font-size: 5rem;
+}
+
+.hero button {
+  margin-top: 2rem;
+  font-size: 32px;
+  background: #00dbde;
+  color: black;
+  border: none;
+  border-radius: 0px 25px 25px 25px;
+  padding: 0.8rem 2.5rem;
+  transition: all 400ms ease-out;
+  outline: none;
+  cursor: pointer;
+}
+
+.hero button:hover {
+  transform: translateY(-4px);
+  border-radius: 25px 25px 0px 25px;
+  filter: hue-rotate(130deg);
+}
+
+.feature {
+  padding: 2.5rem 0;
+  background-color: #0cbaba;
+  background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+}
+
+.feature .card {
+  background: #fff;
+  padding: 2rem 2rem;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.card h1{
+  font-family: "Sansita Swashed", cursive;
+  color: #380036;
+  font-size:2.3rem;
+  text-decoration: underline;
+  text-decoration-color: #139EA6;
+  text-decoration-style: wavy;
+}
+
+.card p{
+  margin-top:2rem;
+  font-size:1.2rem;
+}
+

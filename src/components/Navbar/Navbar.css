@@ -1,0 +1,25 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 0;
+  color: white;
+}
+
+nav h1 {
+  font-family: "Sansita Swashed", cursive;
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav li {
+  list-style: none;
+  margin-right: 1.5rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
