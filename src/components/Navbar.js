@@ -1,0 +1,17 @@
+import React from 'react';
+
+const Navbar = () => {
+    return (
+      <nav className="container">
+        <h1>Email Generator</h1>
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Help</li>
+          <li>Contact</li>
+        </ul>
+      </nav>
+    );
+};
+
+export default Navbar;
