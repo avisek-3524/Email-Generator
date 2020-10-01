@@ -9,6 +9,9 @@
 .container {
   width: 80%;
   max-width: 1200px;
+}
+
+.mx-auto {
   margin: 0 auto;
 }
 
@@ -28,6 +31,7 @@ nav {
 nav h1 {
   font-family: "Sansita Swashed", cursive;
   font-size: 3rem;
+  cursor: pointer;
 }
 
 nav ul {
@@ -39,12 +43,42 @@ nav li {
   list-style: none;
   margin-right: 1.5rem;
   font-size: 1.2rem;
+  cursor: pointer;
 }
 
-footer{
+.hero {
+  padding: 2rem 0;
+  width: 70%;
+}
+
+.hero h1 {
+  font-family: "Sansita Swashed", cursive;
+  font-size: 5rem;
+}
+
+.hero button {
+  margin-top: 2rem;
+  font-size:36px;
+  background: #00dbde;
+  color:black;
+  border:none;
+  border-radius: 0px 25px 25px 25px;
+  padding: 0.8rem 2.5rem;
+  transition: all 400ms ease-out;
+  outline: none;
+  cursor: pointer;
+}
+
+.hero button:hover{
+  transform: translateY(-4px);
+  border-radius: 25px 25px 0px 25px;
+  filter: hue-rotate(130deg);
+}
+
+footer {
   padding: 1rem 0;
   text-align: center;
-  font-size:1.2rem;
+  font-size: 1.2rem;
   color: #fff;
   background-color: #00dbde;
   background-image: linear-gradient(90deg, #00dbde 0%, #fc00ff 100%);
